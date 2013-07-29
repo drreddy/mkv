@@ -29,7 +29,7 @@ $con = mysql_connect('sql3.freesqldatabase.com:3306', 'sql315031', 'gL5!vN7*');
 if (!$con) {
     die('Could not connect: ' . mysql_error());
 }
-//echo 'Connected successfully';
+echo 'Connected successfully';
 $result = mysqli_query($con,"SELECT * FROM intern");
 
 echo "<div><table border='1'>
