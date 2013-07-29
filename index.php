@@ -30,7 +30,8 @@ if (!$con) {
     die('Could not connect: ' . mysql_error());
 }
 echo 'Connected successfully';
-$result = mysqli_query($con,"SELECT * FROM intern");
+
+$result = mysqli_query($con,"SELECT * FROM intern WHERE 1");
 
 echo "<div><table border='1'>
 <tr>
@@ -61,7 +62,7 @@ while($row = mysqli_fetch_array($result))
 echo "</table></div>";
 if($_POST){
 $sql="INSERT INTO intern (name,mail_id,university,research,relcourse) 
-VALUES ($_POST[name],$_POST[mail],$_POST[univ],$_POST[research],$_POST[relcourse])";
+VALUES ('$_POST[name]','$_POST[mail]','$_POST[univ]','$_POST[research]','$_POST[relcourse]')";
 if (!mysqli_query($con,$sql))
   {
   die('Error: ' . mysqli_error($con));
