@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:700" rel="stylesheet">
 <style>
+body{
+font-family: 'Open Sans',sans-serif;
+font-weight: 400;
+background: #f2f5f3;
+color: #6b7770;
+font-size: 11.5pt;
+line-height: 2em;
+}
 table
 {
 border-collapse:collapse;
@@ -14,12 +23,6 @@ table
 {
 width:100%;
 float:left;
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
 ul
 {
@@ -163,7 +166,7 @@ border-top-left-radius: 25px;
     
     $result = mysql_query($con,"SELECT * FROM intern WHERE 1");
     
-    echo "<div id='videos-grid' style='margin-top:70px;'><table border='1'>
+    echo "<div id='videos-grid' style='margin-top:70px; display:none;'><table border='1'>
     <tr>
     <th>Name</th>
     <th>Mail Id</th>
@@ -204,17 +207,20 @@ border-top-left-radius: 25px;
     mysql_close($con);
     ?>
 	<div id="fira-grid">
-        <form style="float:left; width:20%;" action="index.php" method="post">
+        <form style="float:left; width:50%; border-right:1px solid grey;" action="index.php" method="post">
         <input style="width:100%;" type="text" name="name" placeholder="Name"><br/>
-        <input type="text" name="mail" placeholder="Email Id"><br/>
-        <input type="text" name="univ" placeholder="University"><br/>
-        <input type="text" name="research" placeholder="Research"><br/>
-        <textarea rows="10" cols="30" name="relcourse" placeholder="Relcourse">
+        <input style="width:100%;" type="text" name="mail" placeholder="Email Id"><br/>
+        <input style="width:100%;" type="text" name="univ" placeholder="University"><br/>
+        <input style="width:100%;" type="text" name="research" placeholder="Research"><br/>
+        <textarea rows="10" cols="70" name="relcourse" placeholder="Relcourse">
         </textarea><br/>
         <input type="submit">
         </form>
         <br/><br/>
-        <?php $suc; ?>	
+        <?php $suc; ?>
+        <div style="float:right; width:50%;">
+        <center><h4>Courses Done</h4></center>
+        </div>
 	</div>
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <script type="text/javascript">

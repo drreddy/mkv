@@ -14,3 +14,16 @@
 {"ts":1375112676813,"patch":[[{"diffs":[[0,"<html>\r\n"],[1,"<head>"],[0,"\r\n\r\n<?ph"]],"start1":0,"start2":0,"length1":16,"length2":22}]],"length":586,"saved":false}
 {"ts":1375112678160,"patch":[[{"diffs":[[0,"ead>\r\n\r\n"],[1,"\r\n"],[0,"<?php\r\n$"]],"start1":10,"start2":10,"length1":16,"length2":18}]],"length":588,"saved":false}
 {"ts":1375112679073,"patch":[[{"diffs":[[0,"<head>\r\n"],[1,"<>"],[0,"\r\n\r\n<?ph"]],"start1":8,"start2":8,"length1":16,"length2":18}]],"length":590,"saved":false}
+{"ts":1375118632452,"patch":[[{"diffs":[[0,"style>\r\n"],[1,"body\r\n"],[0,"table\r\n{"]],"start1":34,"start2":34,"length1":16,"length2":22}]],"length":5982,"saved":false}
+{"ts":1375118634567,"patch":[[{"diffs":[[0,"e>\r\nbody"],[1,"{}"],[0,"\r\ntable\r"]],"start1":38,"start2":38,"length1":16,"length2":18}]],"length":5984,"saved":false}
+{"ts":1375118635727,"patch":[[{"diffs":[[0,">\r\nbody{"],[1,"\r\n\r\n\r\n"],[0,"}\r\ntable"]],"start1":39,"start2":39,"length1":16,"length2":22}]],"length":5990,"saved":false}
+{"ts":1375118639381,"patch":[[{"diffs":[[0,"\nbody{\r\n"],[-1,"\r\n"],[1,"font-family: 'Open Sans',sans-serif;\r\nfont-weight: 400;\r\nbackground: #f2f5f3;\r\ncolor: #6b7770;\r\nfont-size: 11.5pt;\r\nline-height: 2em;"],[0,"\r\n}\r\ntab"]],"start1":41,"start2":41,"length1":18,"length2":149}]],"length":6121,"saved":false}
+{"ts":1375118660512,"patch":[[{"diffs":[[0,"<head>\r\n"],[1,"<link href=\"http://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:700\" rel=\"stylesheet\">\r\n"],[0,"<style>\r"]],"start1":25,"start2":25,"length1":16,"length2":129}]],"length":6234,"saved":false}
+{"ts":1375118669667,"patch":[[{"diffs":[[0,"\n}\r\n"],[-1,"@font-face {\r\n  font-family: 'Open Sans';\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');\r\n}\r\n"],[0,"ul\r\n"]],"start1":422,"start2":422,"length1":276,"length2":8}]],"length":5966,"saved":false}
+{"ts":1375118682357,"patch":[[{"diffs":[[0,"ter><h4>"],[1,"Relativ"],[0,"</h4></c"]],"start1":5153,"start2":5153,"length1":16,"length2":23}]],"length":5973,"saved":false}
+{"ts":1375118683550,"patch":[[{"diffs":[[0,">Relativ"],[1,"e co"],[0,"</h4></c"]],"start1":5160,"start2":5160,"length1":16,"length2":20}]],"length":5977,"saved":false}
+{"ts":1375118686577,"patch":[[{"diffs":[[0,"ative co"],[1,"urses"],[0,"</h4></c"]],"start1":5164,"start2":5164,"length1":16,"length2":21}]],"length":5982,"saved":false}
+{"ts":1375118692427,"patch":[[{"diffs":[[0,"<h4>"],[-1,"Relative c"],[1,"C"],[0,"ours"]],"start1":5157,"start2":5157,"length1":18,"length2":9}]],"length":5973,"saved":false}
+{"ts":1375118693696,"patch":[[{"diffs":[[0,">Courses"],[1," "],[0,"</h4></c"]],"start1":5160,"start2":5160,"length1":16,"length2":17}]],"length":5974,"saved":false}
+{"ts":1375118695737,"patch":[[{"diffs":[[0,"Courses "],[1,"Dion"],[0,"</h4></c"]],"start1":5161,"start2":5161,"length1":16,"length2":20}]],"length":5978,"saved":false}
+{"ts":1375118698645,"patch":[[{"diffs":[[0,"ourses D"],[-1,"i"],[0,"on"],[1,"e"],[0,"</h4></c"]],"start1":5162,"start2":5162,"length1":19,"length2":19}]],"length":5978,"saved":false}
