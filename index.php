@@ -12,7 +12,7 @@ border:1px solid black;
 }
 table 
 {
-width:50%;
+width:100%;
 float:left;
 }
 @font-face {
@@ -200,11 +200,12 @@ mysql_close($con);
 <div style="allign:center; margin-left:50px; ">
     						<ul>
                             <li class="gallery2" id="firatab">Form</li>
-							<li class="gallery1" id="videostab">DB Entri</li>
+							<li class="gallery1" id="videostab">DB Entries</li>
 							</ul>
 			</div>
+            <br/><br/>
 	<div id="fira-grid">
-        <form style="float:right; width:20%;" action="index.php" method="post">
+        <form style="float:left; width:20%;" action="index.php" method="post">
         <input style="width:100%;" type="text" name="name" placeholder="Name"><br/>
         <input type="text" name="mail" placeholder="Email Id"><br/>
         <input type="text" name="univ" placeholder="University"><br/>
@@ -235,6 +236,7 @@ $("#firatab").click(function(){
 			$("#firatab").attr("class", "gallery2active");
 			$("#videostab").attr("class", "gallery1");
 	});		
+});
 });
 </script>
 </body>
