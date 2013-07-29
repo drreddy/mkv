@@ -166,7 +166,7 @@ border-top-left-radius: 25px;
         die('Could not connect: ' . mysql_error());
     }
     //echo 'Connected successfully';
-    
+    mysql_select_db("sql315031", $con);
     $result = mysql_query("SELECT * FROM intern");
     if($result){
     
