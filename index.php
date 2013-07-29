@@ -27,9 +27,6 @@ float:left;
 input, textarea{
 padding:10px;
 }
-textarea{
-width:95%;
-}
 ul
 {
 list-style-type:none;
@@ -218,8 +215,7 @@ border-top-left-radius: 25px;
         <input style="width:75%;" type="text" name="mail" placeholder="Email Id"><br/>
         <input style="width:75%;" type="text" name="univ" placeholder="University"><br/>
         <input style="width:75%;" type="text" name="research" placeholder="Research"><br/>
-        <textarea rows="10" name="relcourse" placeholder="Relcourse">
-        </textarea><br/>
+        <textarea rows="10" cols="77" name="relcourse" placeholder="Relcourse"></textarea><br/>
         <input type="submit">
         </form>
         <?php $suc; ?>
