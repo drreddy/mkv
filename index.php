@@ -167,7 +167,8 @@ border-top-left-radius: 25px;
     }
     //echo 'Connected successfully';
     
-    $result = mysql_query($con,"SELECT * FROM intern WHERE 1");
+    $result = mysql_query("SELECT * FROM intern");
+    if($result){
     
     echo "<div id='videos-grid' style='margin-top:-40px; display:none;'><table>
     <tr>
@@ -195,11 +196,12 @@ border-top-left-radius: 25px;
       }
       echo "</tr>";
       }
-    echo "</table></div>";
+    echo "</table></div>";}
     if($_POST){
     $sql="INSERT INTO intern (name,mail_id,university,research,relcourse) 
     VALUES ('{$_POST['name']}','{$_POST['mail']}','{$_POST['univ']}','{$_POST['research']}','{$_POST['relcourse']}')";
-    if (!mysql_query($con,$sql))
+    $r = mysql_query($sql); 
+    if (!$r)
       {
       die('Error: ' . mysql_error($con));
       }
