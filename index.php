@@ -198,7 +198,7 @@ border-top-left-radius: 25px;
     echo "</table></div>";
     if($_POST){
     $sql="INSERT INTO intern (name,mail_id,university,research,relcourse) 
-    VALUES ('{$_POST['name']}','{$_POST['mail']}','{$_POST['univ']}','{$_POST['research']}','{$_POST['relcourse']}')";
+    VALUES ($_POST['name'],$_POST['mail'],$_POST['univ'],$_POST['research'],$_POST['relcourse'])";
     if (!mysql_query($con,$sql))
       {
       die('Error: ' . mysql_error($con));
