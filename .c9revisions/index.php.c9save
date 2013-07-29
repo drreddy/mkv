@@ -1,0 +1,16 @@
+{"ts":1375112290979,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"<?php\r\n$link = mysql_connect('sql3.freesqldatabase.com:3306', 'sql315031', 'gL5!vN7*');\r\nif (!$link) {\r\n    die('Could not connect: ' . mysql_error());\r\n}\r\necho 'Connected successfully';\r\nmysql_close($link);\r\n?>"]],"start1":0,"start2":0,"length1":0,"length2":211}]],"length":211}
+{"contributors":[],"silentsave":true,"ts":1375112327802,"patch":[[{"diffs":[[0,"ully';\r\n"],[1,"\r\n\r\n"],[0,"mysql_cl"]],"start1":180,"start2":180,"length1":16,"length2":20}]],"length":215,"saved":false}
+{"ts":1375112337820,"patch":[[{"diffs":[[0,"ully';\r\n"],[1,"$result = mysqli_query($con,\"SELECT * FROM Persons\");\r\n\r\necho \"<table border='1'>\r\n<tr>\r\n<th>Firstname</th>\r\n<th>Lastname</th>\r\n</tr>\";\r\n\r\nwhile($row = mysqli_fetch_array($result))\r\n  {\r\n  echo \"<tr>\";\r\n  echo \"<td>\" . $row['FirstName'] . \"</td>\";\r\n  echo \"<td>\" . $row['LastName'] . \"</td>\";\r\n  echo \"</tr>\";\r\n  }\r\necho \"</table>\";\r\n\r\n"],[0,"\r\n\r\nmysq"]],"start1":180,"start2":180,"length1":16,"length2":352}]],"length":551,"saved":false}
+{"ts":1375112343956,"patch":[[{"diffs":[[0,"\necho \"<"],[1,"div><"],[0,"table bo"]],"start1":244,"start2":244,"length1":16,"length2":21}]],"length":556,"saved":false}
+{"ts":1375112350115,"patch":[[{"diffs":[[0,"</table>"],[1,"</div>"],[0,"\";\r\n\r\n\r\n"]],"start1":515,"start2":515,"length1":16,"length2":22}]],"length":562,"saved":false}
+{"ts":1375112384979,"patch":[[{"diffs":[[0,"ho \"<div"],[1," s"],[0,"><table "]],"start1":247,"start2":247,"length1":16,"length2":18}]],"length":564,"saved":false}
+{"ts":1375112388928,"patch":[[{"diffs":[[0," \"<div s"],[1,"tyle=\"w\""],[0,"><table "]],"start1":249,"start2":249,"length1":16,"length2":24}]],"length":572,"saved":false}
+{"ts":1375112392111,"patch":[[{"diffs":[[0,"style=\"w"],[1,"idth:50%"],[0,"\"><table"]],"start1":256,"start2":256,"length1":16,"length2":24}]],"length":580,"saved":false}
+{"ts":1375112394651,"patch":[[{"diffs":[[0,"idth:50%"],[1,";"],[0,"\"><table"]],"start1":264,"start2":264,"length1":16,"length2":17}]],"length":581,"saved":false}
+{"ts":1375112580235,"patch":[[{"diffs":[[0,"<div"],[-1," style=\"width:50%;\""],[0,"><ta"]],"start1":251,"start2":251,"length1":27,"length2":8}]],"length":562,"saved":false}
+{"ts":1375112665477,"patch":[[{"diffs":[[0,"nk);\r\n?>"],[1,"\r\n\r\n\r\n"]],"start1":554,"start2":554,"length1":8,"length2":14}]],"length":568,"saved":false}
+{"ts":1375112670855,"patch":[[{"diffs":[[1,"\r\n\r\n\r\n"],[0,"<?php\r\n$"]],"start1":0,"start2":0,"length1":8,"length2":14}]],"length":574,"saved":false}
+{"ts":1375112673128,"patch":[[{"diffs":[[1,"<html>"],[0,"\r\n\r\n\r\n<?php\r"]],"start1":0,"start2":0,"length1":12,"length2":18}]],"length":580,"saved":false}
+{"ts":1375112676813,"patch":[[{"diffs":[[0,"<html>\r\n"],[1,"<head>"],[0,"\r\n\r\n<?ph"]],"start1":0,"start2":0,"length1":16,"length2":22}]],"length":586,"saved":false}
+{"ts":1375112678160,"patch":[[{"diffs":[[0,"ead>\r\n\r\n"],[1,"\r\n"],[0,"<?php\r\n$"]],"start1":10,"start2":10,"length1":16,"length2":18}]],"length":588,"saved":false}
+{"ts":1375112679073,"patch":[[{"diffs":[[0,"<head>\r\n"],[1,"<>"],[0,"\r\n\r\n<?ph"]],"start1":8,"start2":8,"length1":16,"length2":18}]],"length":590,"saved":false}
