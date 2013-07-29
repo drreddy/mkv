@@ -146,64 +146,63 @@ border-top-left-radius: 25px;
 }
 </style>
 </head>
-
-<?php
-$con = mysql_connect('sql3.freesqldatabase.com:3306', 'sql315031', 'gL5!vN7*');
-if (!$con) {
-    die('Could not connect: ' . mysql_error());
-}
-//echo 'Connected successfully';
-
-$result = mysql_query($con,"SELECT * FROM intern WHERE 1");
-
-echo "<div id='videos-grid'><table border='1'>
-<tr>
-<th>Name</th>
-<th>Mail Id</th>
-<th>University</th>
-<th>research</th>
-<th>relcourse</th>
-<th>Status</th>
-</tr>";
-
-while($row = mysql_fetch_array($result))
-  {
-  echo "<tr>";
-  echo "<td>" . $row['name'] . "</td>";
-  echo "<td>" . $row['mail_id'] . "</td>";
-  echo "<td>" . $row['university'] . "</td>";
-  echo "<td>" . $row['research'] . "</td>";
-  echo "<td>" . $row['relcourse'] . "</td>";
-  if ($row['status'] == '0'){
-    echo "<td>Pending</td>";    
-  }
-  else{
-    echo "<td>Sent</td>";  
-  }
-  echo "</tr>";
-  }
-echo "</table></div>";
-if($_POST){
-$sql="INSERT INTO intern (name,mail_id,university,research,relcourse) 
-VALUES ('$_POST[name]','$_POST[mail]','$_POST[univ]','$_POST[research]','$_POST[relcourse]')";
-if (!mysql_query($con,$sql))
-  {
-  die('Error: ' . mysql_error($con));
-  }
-else{
-    $suc = "record added";
-}
-}
-mysql_close($con);
-?>
 <body>
-<div style="allign:center; margin-left:50px; ">
-    						<ul>
-                            <li class="gallery2" id="firatab">Form</li>
-							<li class="gallery1" id="videostab">DB Entries</li>
-							</ul>
-			</div>
-            <br/><br/>
+    <div style="allign:center; margin-left:50px; ">
+    	<ul>
+        <li class="gallery2" id="firatab">Form</li>
+    	<li class="gallery1" id="videostab">DB Entries</li>
+    	</ul>
+    </div>
+    <br/><br/>
+    <?php
+    $con = mysql_connect('sql3.freesqldatabase.com:3306', 'sql315031', 'gL5!vN7*');
+    if (!$con) {
+        die('Could not connect: ' . mysql_error());
+    }
+    //echo 'Connected successfully';
+    
+    $result = mysql_query($con,"SELECT * FROM intern WHERE 1");
+    
+    echo "<div id='videos-grid' style='margin-top:70px;'><table border='1'>
+    <tr>
+    <th>Name</th>
+    <th>Mail Id</th>
+    <th>University</th>
+    <th>research</th>
+    <th>relcourse</th>
+    <th>Status</th>
+    </tr>";
+    
+    while($row = mysql_fetch_array($result))
+      {
+      echo "<tr>";
+      echo "<td>" . $row['name'] . "</td>";
+      echo "<td>" . $row['mail_id'] . "</td>";
+      echo "<td>" . $row['university'] . "</td>";
+      echo "<td>" . $row['research'] . "</td>";
+      echo "<td>" . $row['relcourse'] . "</td>";
+      if ($row['status'] == '0'){
+        echo "<td>Pending</td>";    
+      }
+      else{
+        echo "<td>Sent</td>";  
+      }
+      echo "</tr>";
+      }
+    echo "</table></div>";
+    if($_POST){
+    $sql="INSERT INTO intern (name,mail_id,university,research,relcourse) 
+    VALUES ('$_POST[name]','$_POST[mail]','$_POST[univ]','$_POST[research]','$_POST[relcourse]')";
+    if (!mysql_query($con,$sql))
+      {
+      die('Error: ' . mysql_error($con));
+      }
+    else{
+        $suc = "record added";
+    }
+    }
+    mysql_close($con);
+    ?>
 	<div id="fira-grid">
         <form style="float:left; width:20%;" action="index.php" method="post">
         <input style="width:100%;" type="text" name="name" placeholder="Name"><br/>
@@ -217,26 +216,25 @@ mysql_close($con);
         <br/><br/>
         <?php $suc; ?>	
 	</div>
-</div>
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){ 
-$("#videos-grid").hide();
-$("#firatab").attr("class", "gallery2active");
-$("#videostab").click(function(){
-	$("#fira-grid").fadeOut("fast",function(){
-			$("#videos-grid").fadeIn("fast");
-			$("#videostab").attr("class", "gallery1active");
-			$("#firatab").attr("class", "gallery2");				
-	});	
-});
-$("#firatab").click(function(){
-	$("#videos-grid").fadeOut("fast",function(){
-			$("#fira-grid").fadeIn("fast");
-			$("#firatab").attr("class", "gallery2active");
-			$("#videostab").attr("class", "gallery1");
-	});		
-});
+    $("#videos-grid").hide();
+    $("#firatab").attr("class", "gallery2active");
+    $("#videostab").click(function(){
+    	$("#fira-grid").fadeOut("fast",function(){
+    			$("#videos-grid").fadeIn("fast");
+    			$("#videostab").attr("class", "gallery1active");
+    			$("#firatab").attr("class", "gallery2");				
+    	});	
+    });
+    $("#firatab").click(function(){
+    	$("#videos-grid").fadeOut("fast",function(){
+    			$("#fira-grid").fadeIn("fast");
+    			$("#firatab").attr("class", "gallery2active");
+    			$("#videostab").attr("class", "gallery1");
+    	});		
+    });
 });
 </script>
 </body>
