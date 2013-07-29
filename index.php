@@ -216,7 +216,6 @@ border-top-left-radius: 25px;
         </textarea><br/>
         <input type="submit">
         </form>
-        <br/><br/>
         <?php $suc; ?>
         <div style="float:left; width:50%; position:absolute; left:50%; ">
         <center><h4><u>Courses Done</u></h4></center>
