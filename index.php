@@ -198,15 +198,19 @@ border-top-left-radius: 25px;
       }
     echo "</table></div>";}
     if($_POST){
-    $sql="INSERT IGNORE INTO intern (name,mail_id,university,research,relcourse) 
-    VALUES ('{$_POST['name']}','{$_POST['mail']}','{$_POST['univ']}','{$_POST['research']}','{$_POST['relcourse']}')";
-    $r = mysql_query($sql); 
-    if (!$r)
-      {
-      die('Error: ' . mysql_error($con));
-      }
-    else{
-        $suc = "record added";
+    $query = mysql_query("SELECT * FROM intern WHERE mail_id  = '". $_POST['mail'] ."'"); 
+    if (mysql_num_rows($query) == 0) 
+    { 
+        $sql="INSERT INTO intern (name,mail_id,university,research,relcourse) 
+        VALUES ('{$_POST['name']}','{$_POST['mail']}','{$_POST['univ']}','{$_POST['research']}','{$_POST['relcourse']}')";
+        $r = mysql_query($sql); 
+        if (!$r)
+          {
+          die('Error: ' . mysql_error($con));
+          }
+        else{
+            $suc = "record added";
+        }
     }
     }
     mysql_close($con);
