@@ -61,3 +61,42 @@
 {"ts":1375189750674,"patch":[[{"diffs":[[0," = '\". $"],[-1,"row"],[1,"_POST"],[0,"['mail"],[-1,"_id"],[0,"'] .\"'\")"]],"start1":4172,"start2":4172,"length1":28,"length2":27}]],"length":6262,"saved":false}
 {"contributors":[],"silentsave":true,"ts":1375269332379,"patch":[[{"diffs":[[0,":10px;\r\n"],[1,"font-family: 'Open Sans',sans-serif;\r\nfont-weight: 400;\r\nbackground: #f2f5f3;\r\ncolor: #6b7770;\r\nfont-size: 11.5pt;\r\n"],[0,"}\r\nul\r\n{"]],"start1":451,"start2":451,"length1":16,"length2":132}]],"length":6378,"saved":false}
 {"ts":1375269339987,"patch":[[{"diffs":[[0,": 400;\r\n"],[-1,"background: #f2f5f3;\r\n"],[0,"color: #"]],"start1":508,"start2":508,"length1":38,"length2":16}]],"length":6356,"saved":false}
+{"ts":1375269497872,"patch":[[{"diffs":[[0,"></center>\r\n"],[1,"        <p>\r\n"],[0,"        </di"]],"start1":5555,"start2":5555,"length1":24,"length2":37}]],"length":6369,"saved":false}
+{"ts":1375269499363,"patch":[[{"diffs":[[0,"     <p>"],[1,"<>"],[0,"\r\n      "]],"start1":5570,"start2":5570,"length1":16,"length2":18}]],"length":6371,"saved":false}
+{"ts":1375269500345,"patch":[[{"diffs":[[0,"    <p><"],[1,"/p"],[0,">\r\n     "]],"start1":5571,"start2":5571,"length1":16,"length2":18}]],"length":6373,"saved":false}
+{"ts":1375269503464,"patch":[[{"diffs":[[0,"     <p>"],[1,"\r\n            \r\n        \r\n        "],[0,"</p>\r\n  "]],"start1":5570,"start2":5570,"length1":16,"length2":50}]],"length":6407,"saved":false}
+{"ts":1375269706509,"patch":[[{"diffs":[[0,"p>\r\n            "],[1,"1. Chemical Kinetics in my first year and Fluid Mechanics and its lab, Chemical Process Calculation, Thermodynamics, Heat Transfer and its lab in my 2nd year \r\n2.  Chemical Reaction Engineering, Computer Aided Process Engineering, Computer Methods in Chemical Engineering, Instrumentation and Process Control and its lab, Mass Transfer- 1 & 2 and its lab, Mechanical Operations and its lab, Transport Phenomena, Chemical Equipment Design-1 & 2 in my 3rd year.\r\n3. Biochemical Engineering, Process Modelling and Simulation, Optimization techniques in chemical engineering in my present year."],[0,"\r\n        \r\n    "]],"start1":5576,"start2":5576,"length1":32,"length2":622}]],"length":6997,"saved":false}
+{"ts":1375269711305,"patch":[[{"diffs":[[0," year \r\n"],[1,"            "],[0,"2.  Chem"]],"start1":5744,"start2":5744,"length1":16,"length2":28}]],"length":7009,"saved":false}
+{"ts":1375269714464,"patch":[[{"diffs":[[0," year.\r\n"],[1,"            "],[0,"3. Bioch"]],"start1":6057,"start2":6057,"length1":16,"length2":28}]],"length":7021,"saved":false}
+{"ts":1375269718917,"patch":[[{"diffs":[[0,"tics"],[-1," in my first year"],[1,","],[0," and"]],"start1":5608,"start2":5608,"length1":25,"length2":9}]],"length":7005,"saved":false}
+{"ts":1375269723749,"patch":[[{"diffs":[[0,"Kinetics"],[-1,","],[1," in my first year"],[0," and Flu"]],"start1":5604,"start2":5604,"length1":17,"length2":33}]],"length":7021,"saved":false}
+{"ts":1375269726286,"patch":[[{"diffs":[[0,"ics "],[-1,"in my first year and"],[0," Flu"]],"start1":5609,"start2":5609,"length1":28,"length2":8}]],"length":7001,"saved":false}
+{"ts":1375269728065,"patch":[[{"diffs":[[0,"inetics "],[-1," "],[0,"Fluid Me"]],"start1":5605,"start2":5605,"length1":17,"length2":16}]],"length":7000,"saved":false}
+{"ts":1375269730234,"patch":[[{"diffs":[[0,"Kinetics"],[1,",<>"],[0," Fluid M"]],"start1":5604,"start2":5604,"length1":16,"length2":19}]],"length":7003,"saved":false}
+{"ts":1375269732102,"patch":[[{"diffs":[[0,"netics,<"],[1,"br"],[0,"> Fluid "]],"start1":5606,"start2":5606,"length1":16,"length2":18}]],"length":7005,"saved":false}
+{"ts":1375269733043,"patch":[[{"diffs":[[0,"tics,<br"],[1,"/"],[0,"> Fluid "]],"start1":5608,"start2":5608,"length1":16,"length2":17}]],"length":7006,"saved":false}
+{"ts":1375269741255,"patch":[[{"diffs":[[0,"its lab,"],[1,"<br/>"],[0," Chemica"]],"start1":5639,"start2":5639,"length1":16,"length2":21}]],"length":7011,"saved":false}
+{"ts":1375269744785,"patch":[[{"diffs":[[0,"ulation,"],[1,"<br/>"],[0," Thermod"]],"start1":5674,"start2":5674,"length1":16,"length2":21}]],"length":7016,"saved":false}
+{"ts":1375269746435,"patch":[[{"diffs":[[0,"ynamics,"],[1,"<br/>"],[0," Heat Tr"]],"start1":5695,"start2":5695,"length1":16,"length2":21}]],"length":7021,"saved":false}
+{"ts":1375269750177,"patch":[[{"diffs":[[0," its lab"],[1,"<br/>"],[0," in my 2"]],"start1":5726,"start2":5726,"length1":16,"length2":21}]],"length":7026,"saved":false}
+{"ts":1375269755377,"patch":[[{"diffs":[[0,"r/> "],[-1,"in my 2nd year "],[0,"\r\n  "]],"start1":5736,"start2":5736,"length1":23,"length2":8}]],"length":7011,"saved":false}
+{"ts":1375269756658,"patch":[[{"diffs":[[0,"        "],[-1,"1."],[0," Chemica"]],"start1":5584,"start2":5584,"length1":18,"length2":16}]],"length":7009,"saved":false}
+{"ts":1375269758106,"patch":[[{"diffs":[[0,"        "],[-1," "],[0,"Chemical"]],"start1":5584,"start2":5584,"length1":17,"length2":16}]],"length":7008,"saved":false}
+{"ts":1375269763903,"patch":[[{"diffs":[[0,"ion Engineering,"],[1,"<br/>"],[0," Computer Aided "]],"start1":5769,"start2":5769,"length1":32,"length2":37}]],"length":7013,"saved":false}
+{"ts":1375269767313,"patch":[[{"diffs":[[0,"neering,"],[1,"<br/>"],[0," Compute"]],"start1":5818,"start2":5818,"length1":16,"length2":21}]],"length":7018,"saved":false}
+{"ts":1375269770572,"patch":[[{"diffs":[[0,"neering,"],[1,"<br/>"],[0," Instrum"]],"start1":5865,"start2":5865,"length1":16,"length2":21}]],"length":7023,"saved":false}
+{"ts":1375269774674,"patch":[[{"diffs":[[0,"its lab,"],[1,"<br/>"],[0," Mass Tr"]],"start1":5919,"start2":5919,"length1":16,"length2":21}]],"length":7028,"saved":false}
+{"ts":1375269779648,"patch":[[{"diffs":[[0,"its lab,"],[1,"<br/>"],[0," Mechani"]],"start1":5958,"start2":5958,"length1":16,"length2":21}]],"length":7033,"saved":false}
+{"ts":1375269784700,"patch":[[{"diffs":[[0,"its lab,"],[1,"<br/>"],[0," Transpo"]],"start1":5998,"start2":5998,"length1":16,"length2":21}]],"length":7038,"saved":false}
+{"ts":1375269788926,"patch":[[{"diffs":[[0,"enomena,"],[1,"<br/>"],[0," Chemica"]],"start1":6024,"start2":6024,"length1":16,"length2":21}]],"length":7043,"saved":false}
+{"ts":1375269793971,"patch":[[{"diffs":[[0," & 2"],[-1," in my 3rd"],[1,"<br/>"],[0," yea"]],"start1":6065,"start2":6065,"length1":18,"length2":13}]],"length":7038,"saved":false}
+{"ts":1375269794939,"patch":[[{"diffs":[[0,"& 2<br/>"],[-1," ye"],[0,"ar.\r\n   "]],"start1":6066,"start2":6066,"length1":19,"length2":16}]],"length":7035,"saved":false}
+{"ts":1375269797356,"patch":[[{"diffs":[[0,"& 2<br/>"],[-1,"ar."],[0,"\r\n      "]],"start1":6066,"start2":6066,"length1":19,"length2":16}]],"length":7032,"saved":false}
+{"ts":1375269800466,"patch":[[{"diffs":[[0,"    "],[-1,"  2."],[0,"  Ch"]],"start1":5745,"start2":5745,"length1":12,"length2":8},{"diffs":[[0,"        "],[-1,"3."],[0," Biochem"]],"start1":6076,"start2":6076,"length1":18,"length2":16}]],"length":7026,"saved":false}
+{"ts":1375269802038,"patch":[[{"diffs":[[0,"        "],[-1," "],[0,"Biochemi"]],"start1":6076,"start2":6076,"length1":17,"length2":16}]],"length":7025,"saved":false}
+{"ts":1375269804845,"patch":[[{"diffs":[[0,"neering,"],[1,"<br/>"],[0," Process"]],"start1":6100,"start2":6100,"length1":16,"length2":21}]],"length":7030,"saved":false}
+{"ts":1375269806869,"patch":[[{"diffs":[[0,"ulation,"],[1,"<br/>"],[0," Optimiz"]],"start1":6139,"start2":6139,"length1":16,"length2":21}]],"length":7035,"saved":false}
+{"ts":1375269810551,"patch":[[{"diffs":[[0,"ineering"],[-1," "],[1,"<br/>"],[0,"in my pr"]],"start1":6192,"start2":6192,"length1":17,"length2":21}]],"length":7039,"saved":false}
+{"ts":1375269811730,"patch":[[{"diffs":[[0,"br/>"],[-1,"in my present ye"],[0,"ar.\r"]],"start1":6201,"start2":6201,"length1":24,"length2":8}]],"length":7023,"saved":false}
+{"ts":1375269813724,"patch":[[{"diffs":[[0,"br/>"],[-1,"ar."],[0,"\r\n  "]],"start1":6201,"start2":6201,"length1":11,"length2":8}]],"length":7020,"saved":false}
+{"ts":1375269817687,"patch":[[{"diffs":[[0,"ineering"],[1,","],[0,"<br/>\r\n "]],"start1":6192,"start2":6192,"length1":16,"length2":17}]],"length":7021,"saved":false}

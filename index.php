@@ -231,6 +231,12 @@ border-top-left-radius: 25px;
         <?php $suc; ?>
         <div style="float:left; width:50%; position:absolute; left:50%; ">
         <center><h4><u>Courses Done</u></h4></center>
+        <p>
+            Chemical Kinetics,<br/> Fluid Mechanics and its lab,<br/> Chemical Process Calculation,<br/> Thermodynamics,<br/> Heat Transfer and its lab<br/> 
+            Chemical Reaction Engineering,<br/> Computer Aided Process Engineering,<br/> Computer Methods in Chemical Engineering,<br/> Instrumentation and Process Control and its lab,<br/> Mass Transfer- 1 & 2 and its lab,<br/> Mechanical Operations and its lab,<br/> Transport Phenomena,<br/> Chemical Equipment Design-1 & 2<br/>
+            Biochemical Engineering,<br/> Process Modelling and Simulation,<br/> Optimization techniques in chemical engineering,<br/>
+        
+        </p>
         </div>
 	</div>
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
