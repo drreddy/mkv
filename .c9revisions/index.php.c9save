@@ -104,3 +104,8 @@
 {"ts":1375270168427,"patch":[[{"diffs":[[0,"trol and its lab"],[1,"oratory"],[0,",<br/> Mass Tran"]],"start1":5913,"start2":5913,"length1":32,"length2":39}]],"length":7035,"saved":false}
 {"ts":1375270170567,"patch":[[{"diffs":[[0," and its lab"],[1,"oratory"],[0,",<br/> Mecha"]],"start1":5963,"start2":5963,"length1":24,"length2":31},{"diffs":[[0," and its lab"],[1,"oratory"],[0,",<br/> Trans"]],"start1":6010,"start2":6010,"length1":24,"length2":31}]],"length":7049,"saved":false}
 {"ts":1375270173422,"patch":[[{"diffs":[[0," its lab"],[1,"oratory"],[0,",<br/> C"]],"start1":5635,"start2":5635,"length1":16,"length2":23}]],"length":7056,"saved":false}
+{"ts":1375270315241,"patch":[[{"diffs":[[0,"/h4>"],[-1,"</center>"],[0,"\r\n  "]],"start1":5552,"start2":5552,"length1":17,"length2":8},{"diffs":[[0,"      </p>\r\n"],[1,"        \r\n"],[0,"        </di"]],"start1":6246,"start2":6246,"length1":24,"length2":34}]],"length":7057,"saved":false}
+{"ts":1375270316275,"patch":[[{"diffs":[[0,"  </p>\r\n        "],[1,"</center>"],[0,"\r\n        </div>"]],"start1":6250,"start2":6250,"length1":32,"length2":41}]],"length":7066,"saved":false}
+{"ts":1375270317265,"patch":[[{"diffs":[[0,"       <"],[-1,"p"],[0,">\r\n     "]],"start1":5559,"start2":5559,"length1":17,"length2":16}]],"length":7065,"saved":false}
+{"ts":1375270318685,"patch":[[{"diffs":[[0,"       <"],[1,"div"],[0,">\r\n     "]],"start1":5559,"start2":5559,"length1":16,"length2":19}]],"length":7068,"saved":false}
+{"ts":1375270322655,"patch":[[{"diffs":[[0,"      </"],[-1,"p"],[1,"div"],[0,">\r\n     "]],"start1":6248,"start2":6248,"length1":17,"length2":19}]],"length":7070,"saved":false}
