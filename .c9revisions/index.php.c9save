@@ -59,3 +59,5 @@
 {"ts":1375189704934,"patch":[[{"diffs":[[0,"ERE "],[-1,"e"],[0,"mail"],[1,"_id"],[0,"  = "]],"start1":4160,"start2":4160,"length1":13,"length2":15}]],"length":6270,"saved":false}
 {"ts":1375189718843,"patch":[[{"diffs":[[0,"ERT "],[-1,"IGNORE "],[0,"INTO"]],"start1":4268,"start2":4268,"length1":15,"length2":8}]],"length":6263,"saved":false}
 {"ts":1375189750674,"patch":[[{"diffs":[[0," = '\". $"],[-1,"row"],[1,"_POST"],[0,"['mail"],[-1,"_id"],[0,"'] .\"'\")"]],"start1":4172,"start2":4172,"length1":28,"length2":27}]],"length":6262,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1375269332379,"patch":[[{"diffs":[[0,":10px;\r\n"],[1,"font-family: 'Open Sans',sans-serif;\r\nfont-weight: 400;\r\nbackground: #f2f5f3;\r\ncolor: #6b7770;\r\nfont-size: 11.5pt;\r\n"],[0,"}\r\nul\r\n{"]],"start1":451,"start2":451,"length1":16,"length2":132}]],"length":6378,"saved":false}
+{"ts":1375269339987,"patch":[[{"diffs":[[0,": 400;\r\n"],[-1,"background: #f2f5f3;\r\n"],[0,"color: #"]],"start1":508,"start2":508,"length1":38,"length2":16}]],"length":6356,"saved":false}

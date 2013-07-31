@@ -26,6 +26,10 @@ float:left;
 }
 input, textarea{
 padding:10px;
+font-family: 'Open Sans',sans-serif;
+font-weight: 400;
+color: #6b7770;
+font-size: 11.5pt;
 }
 ul
 {
