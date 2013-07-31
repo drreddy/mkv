@@ -163,7 +163,6 @@ border-top-left-radius: 25px;
     	<li class="gallery1" id="videostab">DB Entries</li>
     	</ul>
     </div>
-    <br/><br/>
     <?php
     $con = mysql_connect('sql3.freesqldatabase.com:3306', 'sql315031', 'gL5!vN7*');
     if (!$con) {

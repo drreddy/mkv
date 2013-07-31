@@ -109,3 +109,4 @@
 {"ts":1375270317265,"patch":[[{"diffs":[[0,"       <"],[-1,"p"],[0,">\r\n     "]],"start1":5559,"start2":5559,"length1":17,"length2":16}]],"length":7065,"saved":false}
 {"ts":1375270318685,"patch":[[{"diffs":[[0,"       <"],[1,"div"],[0,">\r\n     "]],"start1":5559,"start2":5559,"length1":16,"length2":19}]],"length":7068,"saved":false}
 {"ts":1375270322655,"patch":[[{"diffs":[[0,"      </"],[-1,"p"],[1,"div"],[0,">\r\n     "]],"start1":6248,"start2":6248,"length1":17,"length2":19}]],"length":7070,"saved":false}
+{"ts":1375270390421,"patch":[[{"diffs":[[0,"v>\r\n"],[-1,"    <br/><br/>\r\n"],[0,"    "]],"start1":3081,"start2":3081,"length1":24,"length2":8}]],"length":7054,"saved":false}
