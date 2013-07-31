@@ -163,6 +163,7 @@ border-top-left-radius: 25px;
     	<li class="gallery1" id="videostab">DB Entries</li>
     	</ul>
     </div>
+    <br/>
     <?php
     $con = mysql_connect('sql3.freesqldatabase.com:3306', 'sql315031', 'gL5!vN7*');
     if (!$con) {
@@ -173,7 +174,7 @@ border-top-left-radius: 25px;
     $result = mysql_query("SELECT * FROM intern");
     if($result){
     
-    echo "<div id='videos-grid' style='margin-top:-40px; display:none;'><table>
+    echo "<div id='videos-grid' style='margin-top:-20px; display:none;'><table>
     <tr>
     <th>Name</th>
     <th>Mail Id</th>
