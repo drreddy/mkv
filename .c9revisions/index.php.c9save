@@ -147,3 +147,4 @@
 {"ts":1375342441132,"patch":[[{"diffs":[[0,"\n<br/>\n<"],[1,"br/"],[0,">\n<embed"]],"start1":556,"start2":556,"length1":16,"length2":19}]],"length":776,"saved":false}
 {"ts":1375342448784,"patch":[[{"diffs":[[0,"ox</h4>\n"],[-1,"\n"],[0,"<img src"]],"start1":374,"start2":374,"length1":17,"length2":16}]],"length":775,"saved":false}
 {"ts":1375342460615,"patch":[[{"diffs":[[0,"</body>\n"],[-1,"\n"],[0,"</html>"]],"start1":759,"start2":759,"length1":16,"length2":15}]],"length":774,"saved":false}
+{"ts":1375342539824,"patch":[[{"diffs":[[0,"rue\""],[-1," width=\"90%\" height=\"150px\""],[0," tit"]],"start1":673,"start2":673,"length1":35,"length2":8}]],"length":747,"saved":false}

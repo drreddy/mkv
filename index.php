@@ -20,7 +20,7 @@ line-height: 2em;
 <img src="https://dl.dropboxusercontent.com/u/29921236/images/banner/banner3.jpg"/>
 <br/>
 <br/>
-<embed src="http://www.youtube.com/v/CrDuDmlH6YQ" type="application/x-shockwave-flash" allowfullscreen="true" width="90%" height="150px" title="Adobe Flash Player">
+<embed src="http://www.youtube.com/v/CrDuDmlH6YQ" type="application/x-shockwave-flash" allowfullscreen="true" title="Adobe Flash Player">
 <h3>Team Video</h3>
 </li>
 </body>
