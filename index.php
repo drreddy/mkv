@@ -17,9 +17,9 @@ line-height: 2em;
 <h4>Test images first one hosted on gdrive, second from dropbox, third from flickr</h4>
 <img src="http://drive.google.com/uc?export=view&id=0B2uvVvM19YPPZkdfOWZkNXJJTlk"/>
 <br/>
-<img src="http://dl.dropboxusercontent.com/u/29921236/images/banner/banner3.jpg"/>
+<img src="https://dl.dropboxusercontent.com/u/29921236/images/banner/banner3.jpg"/>
 <br/>
-<img src="http://www.flickr.com/photos/99717224@N06/9415794540/"/>
+<img src="http://farm6.staticflickr.com/5495/9415794540_e6b7603fe5.jpg"/>
 <br/>
 <embed src="http://www.youtube.com/v/CrDuDmlH6YQ" type="application/x-shockwave-flash" allowfullscreen="true" title="Adobe Flash Player">
 <h3>Team Video</h3>
