@@ -60,6 +60,9 @@ Mkv::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+  
+  config.app_id = "579189145460998"
+  config.app_secret = "404e4ca32eb74da633678555057f0221"
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
