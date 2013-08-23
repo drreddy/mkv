@@ -36,4 +36,7 @@ Mkv::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  config.app_id = "579189145460998"
+  config.app_secret = "404e4ca32eb74da633678555057f0221"
 end

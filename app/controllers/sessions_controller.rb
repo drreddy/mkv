@@ -1,5 +1,16 @@
 class SessionsController < ApplicationController
 	def create
-  		raise request.env["omniauth.auth"].to_yaml
+  		auth = request.env["omniauth.auth"]
+          
+        redirect_to root_url, :notice => "Signed in!"
 	end
+    
+    def new
+      redirect_to '/auth/facebook'
+    end
+    
+    def destroy
+      reset_session
+      redirect_to root_url, notice => 'Signed out'
+    end
 end
