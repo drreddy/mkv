@@ -8,6 +8,8 @@ group :development, :test do
 	gem 'mysql2'
 end
 
+gem 'bootstrap-sass', '2.1'
+
 group :production do
 	gem 'pg'
 end
