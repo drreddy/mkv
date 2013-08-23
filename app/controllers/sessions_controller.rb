@@ -1,8 +1,8 @@
 class SessionsController < ApplicationController
 	def create
   		auth = request.env["omniauth.auth"]
-          
-        redirect_to root_url, :notice => auth['info']['name']
+          data = "Full Name: "+ auth['info']['name'] + " || Email Id: "+ auth['info']['email']
+        redirect_to success_url, :notice => data
 	end
     
     def new
