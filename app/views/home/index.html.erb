@@ -47,10 +47,13 @@
 			
 		<!-- Banner -->
 			<div id="banner">
-				<h2>Hi. You're looking at <strong>Helios</strong>.</h2>
+				<h2><%= link_to 'Sign in with Facebook', signin_path %></h2>
 				<span class="byline">
-					A (free) responsive site template by <a href="http://html5up.net/">HTML5 UP</a>.
-					Built on <a href="http://skeljs.org">skelJS</a> and released under the <a href="http://html5up.net/license/">CCA</a> license.
+					<ul>
+                    <% flash.each do |key, msg| %>
+                      <%= content_tag :li, msg, id: key %>
+                    <% end %>
+                    </ul>
 				</span>
 			</div>
 		<!-- Footer -->
@@ -61,10 +64,6 @@
 							
 							<!-- Contact -->
 								<section class="contact">
-									<header>
-										<h3>Nisl turpis nascetur interdum?</h3>
-									</header>
-									<p>Urna nisl non quis interdum mus ornare ridiculus egestas ridiculus lobortis vivamus tempor aliquet.</p>
 									<ul class="icons">
 										<li><a href="#" class="icon icon-github-sign"><span>Github</span></a></li>
 										<li><a href="#" class="icon icon-facebook"><span>Facebook</span></a></li>
