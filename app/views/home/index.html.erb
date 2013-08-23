@@ -4,15 +4,17 @@
 			<div id="header">		
 				<!-- Inner -->
 					<div class="inner">
+                        <p style="text-align:center;">
+                            <ul>
+                                <% flash.each do |key, msg| %>
+                                  <%= content_tag :li, msg, id: key %>
+                                <% end %>
+                            </ul>
+                        </p>
 						<header>
 							<h1><a href="#" id="logo">Mkv</a></h1>
 							<hr />
 							<span class="byline">A social app integrating Facebook and Netflix<br/>
-                                <ul>
-                                    <% flash.each do |key, msg| %>
-                                      <%= content_tag :li, msg, id: key %>
-                                    <% end %>
-                                </ul>
                             </span>
 						</header>
 						<footer>
