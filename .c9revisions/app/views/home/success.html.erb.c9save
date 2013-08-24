@@ -4,3 +4,5 @@
 {"ts":1377276766964,"patch":[[{"diffs":[[0,"ut\">Sign"],[-1,"o"],[1," O"],[0,"ut</a></"]],"start1":404,"start2":404,"length1":17,"length2":18}]],"length":2003,"saved":false}
 {"ts":1377276936014,"patch":[[{"diffs":[[0,"ef=\""],[-1,"http://mkv.herokuapp.com"],[0,"/sig"]],"start1":370,"start2":370,"length1":32,"length2":8}]],"length":1979,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1377276988428,"patch":[[{"diffs":[[0,"ef=\""],[-1,"http://mkv.herokuapp.com"],[1,"/"],[0,"\">Ho"]],"start1":288,"start2":288,"length1":32,"length2":9}]],"length":1956,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1377351561814,"patch":[[{"diffs":[[0,"   </ul>"],[-1,"\t"],[1,"<br/><br/>\r\n                                    \r\n                                    "],[0,"\r\n\t\t\t\t\t\t"]],"start1":981,"start2":981,"length1":17,"length2":102}]],"length":2041,"saved":false}
+{"ts":1377351658494,"patch":[[{"diffs":[[0,"    "],[-1,"\r\n                                    "],[1,"<a href=\"/share\">Share</a>"],[0,"\r\n\t\t"]],"start1":1033,"start2":1033,"length1":46,"length2":34}]],"length":2029,"saved":false}
