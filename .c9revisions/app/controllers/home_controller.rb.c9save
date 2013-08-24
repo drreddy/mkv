@@ -3,3 +3,5 @@
 {"ts":1377349411520,"patch":[[{"diffs":[[0,"new("],[-1,"api_key, api"],[1,"Mkv::Application.config.app_id, Mkv::Application.config.app"],[0,"_sec"]],"start1":129,"start2":129,"length1":20,"length2":67}]],"length":372,"saved":false}
 {"ts":1377349423441,"patch":[[{"diffs":[[0,"=> \""],[-1,"testing"],[1,"Mkv app"],[0,"\")\n "]],"start1":348,"start2":348,"length1":15,"length2":15}]],"length":372,"saved":false}
 {"ts":1377349469184,"patch":[[{"diffs":[[0,"v app\")\n"],[1,"    redirect_to root_url, :notice => 'Shared'\n"],[0,"  end\nen"]],"start1":354,"start2":354,"length1":16,"length2":62}]],"length":418,"saved":false}
+{"ts":1377351392188,"patch":[[{"diffs":[[0,"Mkv app\""],[1,", :link => \"http://mkv.herokuapp.com\""],[0,")\n    re"]],"start1":352,"start2":352,"length1":16,"length2":53}]],"length":455,"saved":false}
+{"ts":1377351415839,"patch":[[{"diffs":[[0,"app.com\""],[1,", :name => \"Mkv\""],[0,")\n    re"]],"start1":389,"start2":389,"length1":16,"length2":32}]],"length":471,"saved":false}
