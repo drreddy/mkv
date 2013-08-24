@@ -1,8 +1,9 @@
 class SessionsController < ApplicationController
 	def create
   		auth = request.env["omniauth.auth"]
-          data = "Full Name: "+ auth['info']['name'] + " || Email Id: "+ auth['info']['email']
-        redirect_to success_url, :notice => data
+          #data = "Full Name: "+ auth['info']['name'] + " || Email Id: "+ auth['info']['email']
+          mssg = "Hi, "+ auth['info']['name'] + " Thanks for loggin into our website using facebook more interesting things will be happening soon !!!"
+        redirect_to success_url, :notice => mssg
         session['fb_access_token'] = auth['credentials']['token']
 	end
     
