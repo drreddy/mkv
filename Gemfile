@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
 
-ruby '1.9.3'
+# ruby '1.9.3'
 
 group :development, :test do
 	gem 'mysql2'
@@ -21,3 +21,5 @@ end
 gem 'jquery-rails'
 
 gem 'omniauth-facebook'
+
+gem 'koala'
