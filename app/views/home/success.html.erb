@@ -14,9 +14,7 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="/">Home</a></li>
-                            <% if session['fb_access_token'] %>
-                                <li><a href="/signout">Sign Out</a></li>
-                            <% end %>
+                            <li><a href="/signout">Sign Out</a></li>
 						</ul>
 					</nav>
 
@@ -33,16 +31,12 @@
 								<header>
 									<h2>Success Page</h2>
 									<span class="byline">
-                                    <% if session['fb_access_token'] %>
     									<ul>
                                             <% flash.each do |key, msg| %>
                                               <%= content_tag :li, msg, id: key %>
                                             <% end %>
                                         </ul><br/>
                                         <a class="button" href="/share">Share</a>
-                                    <% else %>
-                                        You have not logged in using facebook go to home page and login
-                                    <% end %>
 									</span>
 								</header>
 							</article>

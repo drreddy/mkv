@@ -3,6 +3,11 @@ class HomeController < ApplicationController
   end
   
   def success
+    if session['fb_access_token']
+    
+    else
+        redirect_to root_url, :notice => 'Not sighned in'         
+    end
   end
   
   def share
