@@ -7,6 +7,8 @@ Mkv::Application.routes.draw do
   match '/signout' => 'sessions#destroy', :as => :signout
   
   match '/success' => 'home#success'
+  
+  match '/share' => 'home#share'
 
   match '/signin' => 'sessions#new', :as => :signin
 
