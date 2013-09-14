@@ -11,6 +11,8 @@ Mkv::Application.routes.draw do
   match '/share' => 'home#share'
 
   match '/signin' => 'sessions#new', :as => :signin
+  
+  match '/appathon' => 'home#appathon'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
